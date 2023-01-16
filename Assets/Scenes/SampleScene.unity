@@ -190,7 +190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 161, y: -70}
+  m_AnchoredPosition: {x: 472, y: -317}
   m_SizeDelta: {x: 232.4656, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44904010
@@ -614,7 +614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 130, y: -70}
+  m_AnchoredPosition: {x: 441, y: -317}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &819398553
@@ -1251,6 +1251,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4414788719327004472, guid: b91a8fc4c701cc744bb0df05e9f09d0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414788719327004472, guid: b91a8fc4c701cc744bb0df05e9f09d0c, type: 3}
       propertyPath: m_TagString
       value: Weapon
       objectReference: {fileID: 0}
@@ -1277,6 +1281,10 @@ PrefabInstance:
     - target: {fileID: 4414788720131684706, guid: b91a8fc4c701cc744bb0df05e9f09d0c, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414788720131684706, guid: b91a8fc4c701cc744bb0df05e9f09d0c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4414788720131684706, guid: b91a8fc4c701cc744bb0df05e9f09d0c, type: 3}
       propertyPath: m_TagString
